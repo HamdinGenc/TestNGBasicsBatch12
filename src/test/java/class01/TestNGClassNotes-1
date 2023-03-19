@@ -104,7 +104,7 @@ then use soft.Assertall();
 to complie the result of all the assertion and show you the results on screen
 
 ------------------------------------------
-extra notes and practice on gITHub.
+extra notes and practice on gitHub
 
 How to create a git repo.
 1.navigate to the location where our project is at.
@@ -112,9 +112,25 @@ How to create a git repo.
 No SUBREPOSITORIES
 
 3.Initialize the repo
+4.git add .
 
+5.git commit -m  "message"
 
+remote repo:
+warnings:
+one local repository must have one remote repository
 
+1.git remote -v (check is the connection is there or not)>
+2.git remote add origin URL(this is the url we are copy it from remote repository and
+we are pasting on our git bash as final step when we commit file,folder data to the remote
+ repo).
 
+Imp-->   all this above steps you only need to do while creating the new remote repo and make
+the connection with the local repo, but do not forget each time you decided to push files
+to remote repo you need to create  A NEW REMOTE REPO FROM THE STRETCH AND YOU HAVE TO FOLLOW
+THE STEPS THAT IS MENTIONED ABOVE
+
+git push -u origin main (first time)
+git push (after the first time)
 
 
